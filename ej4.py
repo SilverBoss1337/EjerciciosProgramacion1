@@ -1,7 +1,7 @@
 import math
 
 def area_circunferencia(radio):
-    resultado = math.pi * radio
+    resultado = math.pi * radio**2
     return round(resultado, 5) 
 
 print(area_circunferencia(1))
@@ -21,4 +21,5 @@ while True:
         print("debe de introducir un valor numerico")
 
 print(f"El area de la circunderencia con radio {inp} es {area_circunferencia(radio)}")
+
 """       
